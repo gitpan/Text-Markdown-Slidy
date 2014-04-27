@@ -44,7 +44,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Text::Markdown::Discount" : "0",
+            "Text::Markdown" : "0",
             "parent" : "0",
             "perl" : "5.008001"
          }
@@ -58,7 +58,7 @@
    "provides" : {
       "Text::Markdown::Slidy" : {
          "file" : "lib/Text/Markdown/Slidy.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -72,5 +72,5 @@
          "web" : "https://github.com/Songmu/p5-Text-Markdown-Slidy"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

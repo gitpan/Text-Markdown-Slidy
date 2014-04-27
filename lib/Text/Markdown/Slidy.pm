@@ -3,7 +3,7 @@ use 5.008001;
 use strict;
 use warnings;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 use parent 'Exporter';
 
 our @EXPORT = qw/markdown split_markdown/;
@@ -95,7 +95,7 @@ Text::Markdown::Slidy - Markdown converter for HTML slide tools
 
     use Text::Markdown::Slidy;
 
-    markdown(<'MARKDOWN');
+    markdown(<<'MARKDOWN');
     Title1
     ======
 

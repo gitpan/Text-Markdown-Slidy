@@ -28,13 +28,13 @@ no_index:
 provides:
   Text::Markdown::Slidy:
     file: lib/Text/Markdown/Slidy.pm
-    version: 0.01
+    version: 0.02
 requires:
-  Text::Markdown::Discount: 0
+  Text::Markdown: 0
   parent: 0
   perl: 5.008001
 resources:
   bugtracker: https://github.com/Songmu/p5-Text-Markdown-Slidy/issues
   homepage: https://github.com/Songmu/p5-Text-Markdown-Slidy
   repository: git://github.com/Songmu/p5-Text-Markdown-Slidy.git
-version: 0.01
+version: 0.02
